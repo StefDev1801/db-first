@@ -1,21 +1,21 @@
 **Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.**
 
-- id    | INDEX 
-- chassis_number
-- plate_number
-- engine_powerd (alimentazione auto)
-- brand
-- car_model
-- hp
-- type_of_car (sportiva, utilitaria, etc..)
-- year_of_registration
-- number_of_owners
-- accidents si/no
-- body_color
-- km
-- trasmission
-- insurance_deadline
-- stamp_deadline
-- revision_deadline
-- date_last_car_maintenance_session
-- note
+- id    | INT | AI | UNIQUE | NOTNULL
+- VIN (vehicle identification number)    | VARCHAR(17) | UNIQUE | NOTNULL
+- plate_number    | VARCHAR(6) | UNIQUE | NOTNULL
+- engine_powerd (alimentazione auto)    | STRING(20) | NULL
+- brand    | STRING(20) | NULL
+- car_model    | STRING(20) | NOTNULL
+- hp    | SMALL(1500) | NULL
+- type_of_car (sportiva, utilitaria, etc..)    | STRING(20) | NULL
+- date_of_registration    | DATE | NOTNULL
+- number_of_owners    | TINYINT(10) | DEFAULT(0) | NOTNULL
+- no_accidents    | TINYINT(1) | DEFAULT(1) | NOTNULL
+- body_color    | STRING(15) | NULL
+- km    | MEDIUM(1000000) | NOTNULL
+- manual_trasmission    | TINYINT(1) | DEFAULT(1) | NOTNULL
+- insurance_deadline    | DATE | NOTNULL
+- stamp_deadline    | DATE | NOTNULL
+- revision_deadline    | DATE | NOTNULL
+- date_last_car_maintenance_session    | DATE | NULL
+- note    | TEXT | NULL

@@ -1,4 +1,3 @@
-| ID      | VIN | plate_number | engine_powerd | brand | car_model | hp | type_of_car | year_of_registration | number_of_owners | accidents |body_color | km | trasmission | insurance_deadline | stamp_deadline | revision_deadline | date_last_car_maintenance_session | note |
+| ID      | VIN | plate_number | engine_powerd | brand | car_model | hp | type_of_car | year_of_registration | number_of_owners | no_accidents | body_color | km | trasmission | insurance_deadline | stamp_deadline | revision_deadline | date_last_car_maintenance_session | note |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Header      | Title       || test
-| Paragraph   | Text        | |Other test|
+| 1      | 4Y1-SL658-4-8-Z-41-1439       | GG 789 FF | Plug in Hybrid | MERCEDES | Classe S | 312 | sedan | 2020 | 2 | 1 | red | 97000 | automatic | 2024/09/27 | 2024/04/15 | 2024/05/04 | 02/02/2024 | no additional info |

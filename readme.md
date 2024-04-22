@@ -18,4 +18,4 @@
 - stamp_deadline    | DATE | NOTNULL
 - revision_deadline    | DATE | NOTNULL
 - date_last_car_maintenance_session    | DATE | NULL
-- note    | TEXT | NULL
+- note    | TEXT | DEFAULT(no additional info) | NULL

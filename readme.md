@@ -1,0 +1,21 @@
+**Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.**
+
+- id    | INDEX 
+- chassis_number
+- plate_number
+- engine_powerd (alimentazione auto)
+- brand
+- car_model
+- hp
+- type_of_car (sportiva, utilitaria, etc..)
+- year_of_registration
+- number_of_owners
+- accidents si/no
+- body_color
+- km
+- trasmission
+- insurance_deadline
+- stamp_deadline
+- revision_deadline
+- date_last_car_maintenance_session
+- note

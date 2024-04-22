@@ -1,3 +1,4 @@
 | ID      | VIN | plate_number | engine_powerd | brand | car_model | hp | type_of_car | date_of_registration | number_of_owners | no_accidents | body_color | km | manual_trasmission | insurance_deadline | stamp_deadline | revision_deadline | date_last_car_maintenance_session | note |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 1      | 4Y1-SL658-4-8-Z-41-1439       | GG 789 FF | Plug in Hybrid | MERCEDES | Classe S | 312 | sedan | 2020 | 2 | 1 | red | 97000 | 0 | 2024/09/27 | 2024/04/15 | 2024/05/04 | 02/02/2024 | no additional info |
+| 2      | 5H4-SL658-4-8-Z-41-1439       | FG 874 PL | Electric | TESLA | Model S | 350 | Sedan | 2022 | 1 | 0 | Blue | 50000 | 0 | 2024/10/15 | 2024/04/20 | 2024/05/10 | 04/04/2024 | Body color was red |
